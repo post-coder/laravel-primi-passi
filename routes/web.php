@@ -24,4 +24,13 @@ Route::get('/', function () {
     // ];
 
     return view('home', compact('saluto', 'secondoTitolo'));
-});
+})->name('home');
+
+
+Route::get('/second', function() {
+    return view('second');
+})->name('second');
+
+Route::get('/third', function() {
+    return view('third');
+})->name('third');
