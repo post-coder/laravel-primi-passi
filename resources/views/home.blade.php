@@ -8,7 +8,11 @@
 </head>
 <body>
     <h1>
-        Ciao a tutti!
+        {{ $saluto }}
     </h1>
+    <hr>
+    <h2>
+        {{ $secondoTitolo }}
+    </h2>
 </body>
 </html>
